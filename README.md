@@ -275,3 +275,12 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 If you'd like to load a `.pb` and `.meta` file when using `return_predict()` you can set the `"pbLoad"` and `"metaLoad"` options in place of the `"model"` and `"load"` options you would normally set.
 
 That's all.
+
+To replicate the result on Lab computer, use:
+
+```bash
+cd darkflow
+flow --model cfg/yolo.cfg --load yolov2.weights --demo test2.mp4 --saveVideo --gpu 0.6
+```
+Otherwise please check aboved instruction to install darkflow on your personal computor
+
