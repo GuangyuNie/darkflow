@@ -276,11 +276,14 @@ If you'd like to load a `.pb` and `.meta` file when using `return_predict()` you
 
 That's all.
 
-To replicate the result on Lab computer, use:
+## On DOI Lab desktop
+
+The darkflow on DOI lab desktop #5 has already been set up. 
+To replicate the result on Lab desktop #5, use:
 
 ```bash
 cd darkflow
 flow --model cfg/yolo.cfg --load yolov2.weights --demo test2.mp4 --saveVideo --gpu 0.6
 ```
-Otherwise please check aboved instruction to install darkflow on your personal computor
+Otherwise please check aboved instructions to install darkflow on your personal computor.
 
